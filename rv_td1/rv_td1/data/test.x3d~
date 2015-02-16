@@ -1,0 +1,4830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D profile="immersive" version="3.2">
+  <head>
+    <meta content="test.x3d" name="title"/>
+    <meta content="Pierre Benard" name="creator"/>
+  </head>
+  <Scene>
+    <Transform translation="0.0 1.0 0.0">
+      <Transform translation="-10.0 0.0 -10.0">
+        <Shape>
+          <Appearance DEF="stonebrick">
+            <ImageTexture url="http://www.labri.fr/perso/pbenard/teaching/rv2013/Images/stonebrick.png"/>
+          </Appearance>
+          <IndexedFaceSet DEF="cube" coordIndex="0 1 2 3 -1 4 5 6 7 -1 1 4 7 2 -1 5 0 3 6 -1 3 2 7 6 -1 5 4 1 0 -1 " solid="false" texCoordIndex="0 1 2 3 -1 0 1 2 3 -1 0 1 2 3 -1 0 1 2 3 -1 4 5 6 7 -1 8 9 10 11 -1 ">
+            <Coordinate point="1.0 1.0 1.0, 0.0 1.0 1.0, 0.0 0.0 1.0, 1.0 0.0 1.0, 0.0 1.0 0.0, 1.0 1.0 0.0, 1.0 0.0 0.0, 0.0 0.0 0.0, "/>
+            <TextureCoordinate point="0.0 0.0, 0.33333334 0.0, 0.33333334 1.0, 0.0 1.0, 0.33333334 0.0, 0.6666667 0.0, 0.6666667 1.0, 0.33333334 1.0, 0.6666667 0.0, 1.0 0.0, 1.0 1.0, 0.6666667 1.0"/>
+          </IndexedFaceSet>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -4.0">
+        <Shape>
+          <Appearance DEF="stonebrick_mossy">
+            <ImageTexture url="http://www.labri.fr/perso/pbenard/teaching/rv2013/Images/stonebrick_mossy.png"/>
+          </Appearance>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="stonebrick"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="stonebrick_mossy"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+    </Transform>
+    <Transform translation="0.0 2.0 0.0">
+      <Transform translation="-10.0 0.0 -10.0">
+        <Shape>
+          <Appearance DEF="sand">
+            <ImageTexture url="http://www.labri.fr/perso/pbenard/teaching/rv2013/Images/sand.png"/>
+          </Appearance>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-10.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-9.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-8.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-7.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-6.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-5.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-4.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-3.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-2.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="-1.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="0.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="1.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="2.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="3.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="4.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="5.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="6.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="7.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="8.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -10.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 -1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 0.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 1.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 2.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 3.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 4.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 5.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 6.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 7.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 8.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+      <Transform translation="9.0 0.0 9.0">
+        <Shape>
+          <Appearance USE="sand"/>
+          <IndexedFaceSet USE="cube"/>
+        </Shape>
+      </Transform>
+    </Transform>
+    <Transform translation="2.0 0.0 -1.0">
+      <Shape>
+        <Appearance DEF="tnt">
+          <ImageTexture url="http://www.labri.fr/perso/pbenard/teaching/rv2013/Images/tnt.png"/>
+        </Appearance>
+        <IndexedFaceSet USE="cube"/>
+      </Shape>
+    </Transform>
+  </Scene>
+</X3D>

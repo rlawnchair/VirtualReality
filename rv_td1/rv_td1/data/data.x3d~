@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D profile="immersive" version="3.2">
+  <head>
+    <meta content="data.x3d" name="title"/>
+    <meta content="jhitier" name="creator"/>
+  </head>
+  <Scene>
+     <Transform>
+
+     </Transform>
+  </Scene>
+</X3D>
